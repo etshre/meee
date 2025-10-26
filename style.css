@@ -59,12 +59,13 @@ header, section{
     margin: 2em auto;
     width: min(75em, 100%);
     background-color: var(--colour-1);
-    padding: min(2em, 15%);
+    padding: min(0.5em, 15%);
     border-radius: 1em;
 }
 
 .welcome-section{
     background-color: var(--intro-colour);
+    padding: 1em;
 }
 
 .flex-container {
@@ -130,7 +131,7 @@ h1 {
 
 .likes_and_dislikes {
     padding: 3em min(2em, 15%);
-    background-color: var(--primary-colour);
+    background-color: var(--intro-colour);
     text-align: center;
 }
 
@@ -189,4 +190,9 @@ footer a:hover{
         margin-top: .5em;
         width: 100%;
     }
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
 }
