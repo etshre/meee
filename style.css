@@ -68,6 +68,16 @@ header, section{
     padding: 1em;
 }
 
+.welcome-section h1{
+    text-decoration: wavy underline;
+}
+
+.welcome-section ul{
+    margin-top: 1em;
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
