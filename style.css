@@ -100,10 +100,39 @@ h1 {
     font-weight: 600;
 }
 
-section {
+.cta-button:hover {
+    scale: 1.1;
+}
+
+.hockey{
     padding: 3em min(2em, 15%);
     background-color: var(--colour-2);
     text-align: center;
+}
+
+.art {
+    padding: 3em min(2em, 15%);
+    background-color: var(--colour-3);
+    text-align: center;
+}
+
+.singing{
+    padding: 3em min(2em, 15%);
+    background-color: var(--tertiary-colour);
+    text-align: center;
+}
+
+.likes_and_dislikes {
+    padding: 3em min(2em, 15%);
+    background-color: var(--primary-colour);
+    text-align: center;
+}
+
+.obsessions{
+    padding: 3em min(2em, 15%);
+    background-color: var(--text-colour);
+    text-align: center;
+    color: var(--base-colour);
 }
 
 h2 {
