@@ -3,6 +3,7 @@
 :root{
     --base-colour: #ffffff;
     --text-colour: #4b8ae9;
+    --intro-colour: #ddeeff;
     --primary-colour: #bbddf0;
     --secondary-colour: #f0bbdd;
     --tertiary-colour: #a3d1ac;
@@ -62,6 +63,10 @@ header, section{
     border-radius: 1em;
 }
 
+.welcome-section{
+    background-color: var(--intro-colour);
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
@@ -69,6 +74,7 @@ header, section{
     flex-wrap: wrap;
     gap: 3em;
 }
+
 
 header img{
     max-width: 100%;
@@ -159,7 +165,7 @@ footer a:hover{
     text-decoration: underline;
 }
 
-@media(max width: 988px){
+@media(max-width: 988px){
     header {
         text-align: center;
     }
@@ -168,7 +174,7 @@ footer a:hover{
     }
 }
 
-@media(max width: 640px){
+@media(max-width: 640px){
     nav li {
         display: none;
     }
