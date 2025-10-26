@@ -143,3 +143,44 @@ section p{
     margin-top: 2em;
     font-size: 1.25em;
 }
+
+footer {
+    padding: 1.5em;
+    text-align: center;
+}
+
+footer a{
+    margin: 0 1em;
+    text-decoration: none;
+    color: var(--text-colour);
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+@media(max width: 988px){
+    header {
+        text-align: center;
+    }
+    header .text-container{
+        padding-top: 0;
+    }
+}
+
+@media(max width: 640px){
+    nav li {
+        display: none;
+    }
+    nav li:first-child,
+    nav li:last-child {
+        display: block;
+    }
+    header {
+        margin-top: 0;
+    }
+    .cta-button {
+        margin-top: .5em;
+        width: 100%;
+    }
+}
