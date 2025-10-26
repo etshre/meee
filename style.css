@@ -109,13 +109,27 @@ h1 {
 }
 
 .cta-button:hover {
-    scale: 1.1;
+    transform: scale(1.1);
 }
 
 .hockey{
     padding: 3em min(2em, 15%);
     background-color: var(--colour-2);
     text-align: center;
+}
+
+.hockey-images{
+    background-color: var(--colour-2);
+}
+
+.grid-container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 100%
+}
+
+.grid-container img {
+   border-radius: .5em;
 }
 
 .art {
