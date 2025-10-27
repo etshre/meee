@@ -3,8 +3,11 @@
 :root{
     --base-colour: #ffffff;
     --text-colour: #4b8ae9;
+    --text-colour-2: #d18888;
     --intro-colour: #ddeeff;
-    --primary-colour: #bbddf0;
+    --likes-colour: #d9f8f6;
+    --dislikes-colour: #f5ccac;
+    --primary-colour: #d2e9f7;
     --secondary-colour: #f0bbdd;
     --tertiary-colour: #bde5c4;
     --colour-1: #f0c0c0;
@@ -173,6 +176,23 @@ h1 {
     padding: 3em min(2em, 15%);
     background-color: var(--intro-colour);
     text-align: center;
+}
+
+.likes {
+    padding: 3em min(2em, 15%);
+    background-color: var(--likes-colour);
+    text-align: left;
+}
+
+.dislikes {
+    padding: 3em min(2em, 15%);
+    background-color: var(--dislikes-colour);
+    text-align: left;
+    color: var(--text-colour-2)
+}
+
+.likes h1, .dislikes h1{
+    text-decoration: wavy underline;
 }
 
 .obsessions{
