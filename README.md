@@ -1,4 +1,4 @@
 # meee
-personal website about meee
-has different sections about different hobbies
-call me ms. eclectic if u like
+<h1>personal website</h1>
+<h2>about meee</h2>
+<p>has different sectinos about different hobbies<br> call me ms. eclectic if u like</p>
