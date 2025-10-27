@@ -13,6 +13,11 @@
     --colour-1: #f0c0c0;
     --colour-2: #ffd6a5;
     --colour-3: #fdffb6;
+    --colour-4: #caffbf;
+    --colour-5: #9bf6ff;
+    --colour-6: #a0c4ff;
+    --colour-7: #e9eaeb;
+    --colour-8: #8f8d8d;
 }
 
 * {
@@ -200,6 +205,13 @@ h1 {
     background-color: var(--text-colour);
     text-align: center;
     color: var(--base-colour);
+}
+
+.camera-roll {
+    padding: 3em min(2em, 15%);
+    background-color: var(--colour-7);
+    text-align: center;
+    color: var(--colour-8);
 }
 
 h2 {
