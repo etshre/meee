@@ -6,7 +6,7 @@
     --intro-colour: #ddeeff;
     --primary-colour: #bbddf0;
     --secondary-colour: #f0bbdd;
-    --tertiary-colour: #a3d1ac;
+    --tertiary-colour: #bde5c4;
     --colour-1: #f0c0c0;
     --colour-2: #ffd6a5;
     --colour-3: #fdffb6;
@@ -158,10 +158,15 @@ h1 {
 .art img{
     border-radius: 1em;
 }
+
 .singing{
     padding: 3em min(2em, 15%);
     background-color: var(--tertiary-colour);
     text-align: center;
+}
+
+.singing li{
+    font-size: 1.25em;
 }
 
 .likes_and_dislikes {
