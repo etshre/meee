@@ -115,9 +115,15 @@ header img{
 
 .video-container {
     display: flex;
-    align-items: flex-start
-    flex: 0 1 34em;
+    align-items: flex-start;
     object-fit: cover;
+    border: 1em;
+}
+
+.video-container p {
+    display: flex;
+    color: var(--text-colour);
+    text-align: flex-end;
 }
 
 h1 {
@@ -178,6 +184,7 @@ h1 {
     padding: 3em min(2em, 15%);
     background-color: var(--tertiary-colour);
     text-align: center;
+    align-items: flex-start;
 }
 
 .singing li{
@@ -274,4 +281,71 @@ footer a:hover{
 .sticky {
     position: sticky;
     top: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    margin: 1em;
+}
+
+.faq-section {
+    padding: 4em 2em;
+}
+
+.faq {
+    list-style: none;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.faq li {
+    background: var(--tertiary-colour);
+    border-bottom: 1px var(--text-colour) solid;
+}
+
+.expand li:first-child {
+    border-top: 1px var(--text-colour) solid;
+}
+
+.q {
+    padding: 1em 0;
+    border-left: 10px var(--intro-colour) solid;
+    cursor: pointer;
+}
+
+.q:hover,
+.q:hover .arrow {
+    border-left-color: var(--colour-5);
+}
+
+.arrow {
+    display: inline-block;
+    margin: 0 0.5em;
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-left: 10px solid var(--colour-8);
+    border-bottom: 6px solid transparent;
+    transition: 0.3s;
+}
+
+.faq p {
+    color: var(--colour-8);
+    line-height: 25px;
+}
+
+.a {
+    overflow: hidden;
+    height: 0;
+    padding: 0 1em 0 3.3em;
+}
+
+.a-opened {
+    padding: 1em 1em 2em 3.3em;
+    height: intial;
+}
+
+.arrow-rotated {
+    transform: rotate(90deg);
 }
