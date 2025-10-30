@@ -283,69 +283,17 @@ footer a:hover{
     top: 0;
 }
 
-.title {
-    text-align: center;
-    font-size: 3em;
-    margin: 1em;
+details {
+    margin-top: 1em;
+    background-color: var(--tertiary-colour);
+    border-radius: 1em;
 }
 
-.faq-section {
-    padding: 4em 2em;
+details summary {
+    padding: 1em;
+    font-size: 1.7rem;
 }
 
-.faq {
-    list-style: none;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.faq li {
-    background: var(--tertiary-colour);
-    border-bottom: 1px var(--text-colour) solid;
-}
-
-.expand li:first-child {
-    border-top: 1px var(--text-colour) solid;
-}
-
-.q {
-    padding: 1em 0;
-    border-left: 10px var(--intro-colour) solid;
-    cursor: pointer;
-}
-
-.q:hover,
-.q:hover .arrow {
-    border-left-color: var(--colour-5);
-}
-
-.arrow {
-    display: inline-block;
-    margin: 0 0.5em;
-    width: 0;
-    height: 0;
-    border-top: 6px solid transparent;
-    border-left: 10px solid var(--colour-8);
-    border-bottom: 6px solid transparent;
-    transition: 0.3s;
-}
-
-.faq p {
-    color: var(--colour-8);
-    line-height: 25px;
-}
-
-.a {
-    overflow: hidden;
-    height: 0;
-    padding: 0 1em 0 3.3em;
-}
-
-.a-opened {
-    padding: 1em 1em 2em 3.3em;
-    height: intial;
-}
-
-.arrow-rotated {
-    transform: rotate(90deg);
+details p {
+    padding: 0 2em 2em 2em;
 }
