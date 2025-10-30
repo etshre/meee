@@ -298,7 +298,8 @@ details p {
     padding: 0 2em 2em 2em;
 }
 
-details img {
+details img,
+details video {
     padding: 2em;
     align-items: center;
 }
