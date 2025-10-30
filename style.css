@@ -297,3 +297,8 @@ details summary {
 details p {
     padding: 0 2em 2em 2em;
 }
+
+details img {
+    padding: 2em;
+    align-items: center;
+}
