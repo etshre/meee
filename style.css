@@ -294,6 +294,10 @@ details summary {
     font-size: 1.7rem;
 }
 
+details summary:hover {
+    cursor: pointer;
+}
+
 details p {
     padding: 0 2em 2em 2em;
 }
