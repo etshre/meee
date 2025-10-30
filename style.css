@@ -307,3 +307,56 @@ details video {
     padding: 2em;
     align-items: center;
 }
+
+.album img {
+    max-inline-size: 100%;
+}
+
+.album body {
+    font-size: 1em;
+    line-height: 1.7;
+    color: var(--colour-8);
+    background: var(--colour-7);
+
+    min-block-size: 100vh;
+    display: grid;
+    grid-template-columns: 
+    [sidebar-start]
+        5rem
+    [sidebar-end main-start]
+        1fr
+    [main-end];
+}
+
+.album h2 {
+    font-size: 1.75em;
+    line-height: 1.5;
+    margin-block-end: 1rem;
+    color: var(--colour-8);
+}
+
+.album h3,
+.album p {
+    color: var(--colour-8);
+}
+
+.album .sidebar {
+    color: var(--colour-8);
+    background-color: var(--colour-7);
+}
+
+.album .logo {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    line-height: 1.5;
+}
+
+.album .main {
+    grid-column: main;
+    padding: 1.25rem;
+}
+
+.gallery {
+    
+}
